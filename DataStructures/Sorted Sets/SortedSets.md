@@ -89,3 +89,7 @@ the key, the increment value, and the member whose score you want to increase.
 ## ZREMRANGEBYRANK removes the inclusive range of elements specified.
 
 Example use cases for sorted sets would be a priority queue or a leaderboard.
+
+##  Documentation for Sorted Set commands at redis.io.
+ 
+You can find documentation [here](https://redis.io/commands/?group=sorted_set).
