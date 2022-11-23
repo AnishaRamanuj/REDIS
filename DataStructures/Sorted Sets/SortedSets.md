@@ -6,6 +6,8 @@
 - Sorted Sets keep everything sorted from the get-go.
 - Sorted Sets are a good choice for priority queues, low-latency leaderboards, and secondary indexing in general.
 
+### NOTE: If you use LRANGE on a sorted set then you'll get an error.
+
 ### NOTE : Sorted sets provide the ability to perform an intersection, union and difference.(The Difference operator was added in Redis 6.2 as the ZDIFF command.)
 
 ## Why use Redis Sorted Sets?
